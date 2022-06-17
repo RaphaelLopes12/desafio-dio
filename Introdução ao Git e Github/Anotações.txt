@@ -1,2 +1,27 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendiddo para otimizar o uso do Git
+
+## Comando usuais do Git
+
+# Git init 
+Para comerçar um projeto que ainda não seja um repositório.
+
+# Git clone
+É um comando para baixar o código fonte existente de um repositório remoto.
+
+# Git status
+Serve para fornecer algumas informações importantes sobre a branch em que estiver no momento, incluindo se ela está atualizada em relação à master e quais arquivos foram alterados.
+
+# Git add
+Quando criamos, modificamos ou excluímos um arquivo, essas alterações ocorrerão em nosso ambiente local e não serão incluídas no próximo commit.
+Para incluir as alterações de um arquivo em nosso próximo commit, será preciso usar o comando git add.
+
+Para adicionar apenas um arquivo:
+git add <arquivo>
+
+# Git commit
+Esse comando visa definir um ponto de verificação no processo de desenvolvimentp, para a qual pode-se retornar mais tarde, se necessário.
+git commit -m ""
+
+# Git push
+Após confirmar as alterações, a próxima coisa que você deseja fazer é enviar as alterações para o servidor remoto usando o comando git push.
